@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "mqtt": "^5.10.3"
+    "better-sqlite3": "^11.8.1",
+    "dayjs": "^1.11.13",
+    "dayjs-ext": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "firebase": "^11.3.0",
+    "firebase-admin": "^13.1.0",
+    "mqtt": "^5.10.3",
+    "nodemon": "^3.1.9",
+    "npm": "^11.1.0"
   }
 }
